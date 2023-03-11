@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.text-style {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--color-black);
+}

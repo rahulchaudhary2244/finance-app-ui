@@ -1,0 +1,59 @@
+:root {
+    /* Global variables to be defined here */
+    --color-black: #121212;
+    --color-white: #ffffff;
+    --color-background: #f3f9fd;
+    --color-font: #12141d;
+    --color-primary: #2a5ee4;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+#root,
+#__next {
+    isolation: isolate;
+}
+
+.container {
+    width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}

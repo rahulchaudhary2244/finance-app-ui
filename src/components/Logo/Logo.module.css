@@ -1,0 +1,9 @@
+.logo-text {
+    font-weight: 600;
+    color: var(--color-font);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
