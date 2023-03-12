@@ -3,4 +3,29 @@
     align-items: center;
     justify-content: space-between;
     background: transparent;
+    flex-wrap: wrap;
+}
+
+/** lg **/
+@media screen and (min-width: 641px) and (max-width: 1440px) {
+    .container {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/** md **/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .container {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/** sm **/
+@media screen and (max-width: 321px) {
+    .container {
+        gap: 8px;
+        justify-content: center;
+    }
 }

@@ -7,11 +7,31 @@ import HeroSection from './components/HeroSection/HeroSection';
 
 function App() {
     return (
-        <div className="container">
-            <Navbar extras={<Button btnText="download app" />} />
-            <HeroSection />
-            <Navbar extras={<Socials links={links} />} />
-        </div>
+        <>
+            <div style={{ background: 'var(--color-background)' }}>
+                <div className="container">
+                    <header className="header-container">
+                        <Navbar extras={<Button btnText="download app" />} />
+                    </header>
+                    <HeroSection />
+                    <hr
+                        style={{
+                            marginTop: '55px',
+                            border: '1px solid #9A9A9A ',
+                        }}
+                    />
+                </div>
+            </div>
+            <footer
+                className="container"
+                style={{
+                    paddingTop: '32px',
+                    paddingBottom: '32px',
+                }}
+            >
+                <Navbar extras={<Socials links={links} />} />
+            </footer>
+        </>
     );
 }
 
