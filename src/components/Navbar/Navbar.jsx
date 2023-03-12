@@ -1,13 +1,12 @@
 import React from 'react';
-import Button from '../Button/Button';
 import LogoWithSectionName from '../LogoWithSectionName/LogoWithSectionName';
 import styles from './Navbar.module.css';
 
-function Navbar() {
+function Navbar({ extras }) {
     return (
         <div className={styles['container']}>
             <LogoWithSectionName />
-            <Button btnText="download app" />
+            {extras}
         </div>
     );
 }

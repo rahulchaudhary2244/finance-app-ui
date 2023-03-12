@@ -1,7 +1,6 @@
 .container {
     display: flex;
-    gap: 401px;
     align-items: center;
-    justify-content: center;
-    background: var(--color-background);
+    justify-content: space-between;
+    background: transparent;
 }

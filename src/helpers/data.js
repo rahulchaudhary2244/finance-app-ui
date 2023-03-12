@@ -1,0 +1,42 @@
+export const links = [
+    {
+        id: '1',
+        link: 'https://github.com/rahulchaudhary2244',
+        alt: 'google icon',
+        image: require('../assets/google.png'),
+        height: 20,
+        width: 20,
+    },
+    {
+        id: '2',
+        link: 'https://github.com/rahulchaudhary2244',
+        alt: 'framer icon',
+        image: require('../assets/framer.png'),
+        height: 20,
+        width: 20,
+    },
+    {
+        id: '3',
+        link: 'https://github.com/rahulchaudhary2244',
+        alt: 'facebook icon',
+        image: require('../assets/facebook.png'),
+        height: 20,
+        width: 20,
+    },
+    {
+        id: '4',
+        link: 'https://github.com/rahulchaudhary2244',
+        alt: 'whatsapp icon',
+        image: require('../assets/whatsapp.png'),
+        height: 20,
+        width: 20,
+    },
+    {
+        id: '5',
+        link: 'https://github.com/rahulchaudhary2244',
+        alt: 'youtube icon',
+        image: require('../assets/youtube.png'),
+        height: 16,
+        width: 20,
+    },
+];
